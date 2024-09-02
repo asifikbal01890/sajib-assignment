@@ -8,7 +8,7 @@
 
     <!--google fonts link-->
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">a
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
@@ -278,10 +278,10 @@
                                 <p class="font-medium">Class</p>
                                 <p class="font-medium">Price</p>
                             </div>
-                            <hr class="border-dashed mt-6 mb-6 border-[#808B96]">
-                            <div id="upcoming-price">
+                            <hr class="border-dashed mt-6 mb-2 border-[#808B96]">
+                            <ul id="upcoming-price">
 
-                            </div>
+                            </ul>
 
                             <hr class="border-[#808B96]">
 
@@ -291,8 +291,8 @@
                             </div>
 
                             <div class="bg-white rounded-md flex justify-between p-2 mt-4 ">
-                                <input type="text" placeholder="Have any copupon?" class="pl-2">
-                                <button class="btn rounded-xl bg-[#1DD100] font-semibold text-white">Apply</button>
+                                <input id="coupon-input" type="text" placeholder="Have any copupon?" class="pl-2">
+                                <button onclick="applyCoupon()" class="btn rounded-xl bg-[#1DD100] font-semibold text-white">Apply</button>
 
                             </div>
 
